@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>響應式網頁設計</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/all.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="title">
+                <a href="#"><img src="assets/logo_w.png" alt="logo"></a>
+                <ul class="menu">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="Cart.html">購物車</a></li>
+                    <li><a href="Login.html">登入</a></li>
+                </ul>
+            </div>
+            <div class="logan">
+                <h1 class="logan-desktop">
+                    咬一口就無法忘懷的漢堡
+                </h1>
+                <h1 class="logan-mobile">
+                    咬一口<br>就無法忘懷的漢堡
+                </h1>
+                <p>
+                    七夕絕對無法錯過的好滋味<br><i class="fas fa-utensils"></i> 六角大漢堡 <i class="fas fa-utensils"></i>
+                </p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="order-list">
+                <h2>
+                    <i class="fas fa-leaf"></i>
+                    線上訂購美食
+                </h2>
+                <ul class="cart-menu">
+                    <li><a href="#">全部（23）</a></li>
+                    <li><a href="#">只愛吃薯條（18）</a></li>
+                    <li><a href="#">加熱就可食（1）</a></li>
+                    <li class="active"><a href="#">不敗漢堡系列（4）</a></li>
+                </ul>
+            </div>
+            <div class="order-main">
+                <div class="order-header">
+                    <div class="order-searchbar">
+                        <form action="Cart.html">
+                            <input type="text" id="search"><button type="submit"><i class="fas fa-search"></i></button>
+                        </form>                        
+                    </div>
+                    <div class="order-shop">
+                        <p>結帳去</p>
+                        <a href="Cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="order-menu">
+                    <div class="order-item">
+                        <div class="order-tag">
+                            <i class="far fa-heart"></i>
+                            <p>熱銷美食</p>
+                        </div>
+                        <img src="assets/product_1.png" alt="product_1">
+                        <h2>經典漢堡套餐</h2>
+                        <p>Classic Hamburger Package</p>
+                        <div class="line"></div>
+                        <h3>$120</h3>
+                        <a href="#"><i class="fas fa-shopping-cart"></i>加入購物車</a>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-tag">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <img src="assets/product_2.png" alt="product_2">
+                        <h2>英俊香腸</h2>
+                        <p>Handsome Sausage</p>
+                        <div class="line"></div>
+                        <h3>$1,024</h3>
+                        <a href="#"><i class="fas fa-shopping-cart"></i>加入購物車</a>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-tag">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <img src="assets/product_3.png" alt="product_3">
+                        <h2>漢堡兄弟</h2>
+                        <p>Hamburg Brothers</p>
+                        <div class="line"></div>
+                        <h3>$792</h3>
+                        <a href="#"><i class="fas fa-shopping-cart"></i>加入購物車</a>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-tag">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <img src="assets/product_4.png" alt="product_4">
+                        <h2>完美願望</h2>
+                        <p>Dragon Ball Package</p>
+                        <div class="line"></div>
+                        <h3>$999,999</h3>
+                        <a href="#"><i class="fas fa-shopping-cart"></i>加入購物車</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="about">
+                <h2>關於 六角西餐廳</h2>
+                <p>Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. </p>
+            </div>
+            <div class="contact">
+                <h2>聯絡方式</h2>
+                <ul>
+                    <li>高雄市中正五路到底</li>
+                    <li>+886 886 886</li>
+                    <li>service@hexschool.com</li>
+                </ul>
+            </div>
+            <div class="footer_logo">
+                <img src="assets/logo_l(null).svg" alt="">
+                <span class="footer_social">
+                    <i class="fab fa-google-plus-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

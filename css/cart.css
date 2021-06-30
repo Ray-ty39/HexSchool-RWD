@@ -1,0 +1,246 @@
+.content{
+    margin-top: 48px;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:375px) {
+    .content{
+        flex-direction: column;
+    }
+}
+
+.order-list{
+    width: 25%;
+    /* border: 1px solid #000; */
+}
+.order-list h2{
+    font-size: 20px;
+    color: #3D1101;
+    padding-bottom: 16px;
+}
+.order-list ul{
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.cart-menu li.active{
+    background: #3d1101;
+}
+.cart-menu li.active a{
+    color: white;
+}
+.order-list li{
+    border-bottom: 1.5px solid #3d1101;
+}
+.order-list a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #3D1101;
+    padding-left: 5%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+@media (max-width:375px) {
+    .order-list{
+        width: 95%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+}
+
+.order-main{
+    width: 70%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+@media (max-width:375px) {
+    .order-main{
+        width: 95%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+}
+
+.order-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+}
+@media (max-width:375px) {
+    .order-header{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.order-searchbar{
+    width: 60%;
+    height: 20px;
+    border: 1px solid#3D1101;
+    display: flex;
+    flex-direction: row;
+}
+.order-searchbar form{
+    width: 100%;
+}
+.order-searchbar input{
+    width: 84%;
+    border-radius: 0%;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+}
+.order-searchbar button{
+    width: 14%;
+    border-radius: 0%;
+    border: none;
+    background: #3D1101;
+    height: 100%;
+    position: relative;
+    float: right;
+    right: -1px;
+}
+.order-searchbar button:hover{
+    opacity: 0.8;
+}
+.order-searchbar i{
+    color: white;
+}
+@media (max-width:375px) {
+    .order-searchbar{
+        margin-top: 25px;
+        width: 95%;
+        height: 35px;
+        margin-bottom: 15px;
+    }
+}
+
+.order-shop{
+    display: flex;
+    flex-direction: row;
+}
+.order-shop p{
+    padding-right: 15px;
+    font-size: 16px;
+    color: #3D1101;
+    align-self: center;
+    border-right: 1px solid #3D1101;
+}
+.order-shop a{
+    align-self: center;
+    padding-left: 15px;
+    color: #3D1101;
+    font-size: 25px;
+}
+@media (max-width:375px) {
+    .order-shop{
+        align-self: flex-end;
+        padding-right: 2.5%;
+    }
+}
+
+.order-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #3D1101;
+}
+@media (max-width:375px) {
+    .order-menu{
+        flex-direction: column;
+    }
+}
+
+.order-item{
+    width: 45%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    margin-bottom: 30px;
+    line-height: 1.25;
+    position: relative;
+}
+.order-tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 93%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* padding-right: 7%; */
+    padding-left: 7%;
+    padding-top: 2.5%;
+    font-weight: bold;
+}
+.order-item .order-tag p{
+    font-size: 14px;
+    transform: rotate(45deg);
+    background: #00CC99 100%;
+    padding-bottom: 0;
+    color: white;
+    padding: 5px;
+}
+.fa-heart{
+    color: #fff;
+    font-size: 20px;
+}
+.order-item img{
+    width: 100%;
+    height: auto;
+}
+.order-item h2{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 12px;
+}
+.order-item p{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.line{
+    width: 40%;
+    height: 1px;
+    background: #3d1101;
+    margin: 0 auto;
+}
+.order-item h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+.order-item a{
+    text-decoration: none;
+    color: #FF5E45;
+    text-align: center;
+    display: block;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #FF5E45;
+    border-radius: 3px;
+    /* transform: all 0.3s; */
+}
+.order-item a:hover{
+    background: #FF5E45;
+    color: #EFE9E7;
+}
+@media (max-width:375px) {
+    .order-item{
+        width: 95%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+}

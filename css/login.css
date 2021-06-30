@@ -1,0 +1,89 @@
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.content img{
+    width: 240px;
+    align-self: center;
+    padding-top: 50px;
+    text-align: center;
+}
+.content h2{
+    font-size: 20px;
+    color: #3d1101;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-box{
+    width: 300px;
+    align-self: center;
+    margin-top: 35px;
+    background: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    border-top: 3px solid #FF5E45;
+}
+.login-box h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3D1101;
+    padding-top: 12px;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #FF5E45;
+}
+
+.login-input{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.login-input label{
+    padding-top: 16px;
+}
+.login-input input{
+    font-size: 20px;
+}
+
+.login-button{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.login-button button{
+    height: 32px;
+    width: 44%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: none;
+    background: rgba(0,0,0,0.35);
+    border-radius: 3px;
+    color: white;
+}
+.login-button button:hover{
+    opacity: 0.8;
+}
+.login-button button a{
+    color: white;
+}
+.login-button input{
+    height: 32px;
+    width: 44%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: none;
+    background: #F56C23;
+    border-radius: 3px;
+    color: white;
+}
+.login-button input:hover{
+    opacity: 0.8;
+}
